@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ExampleComponent from "./components/example";
 
 function App() {
   console.log("Env var", process.env.CHAT_GPT_API_KEY);
@@ -27,6 +28,7 @@ function App() {
         >
           Second Button
         </a>
+        <ExampleComponent />
       </header>
     </div>
   );
