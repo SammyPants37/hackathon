@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  console.log("Env var", process.env.CHAT_GPT_API_KEY);
   return (
     <div className="App">
       <header className="App-header">
