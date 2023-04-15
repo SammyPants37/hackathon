@@ -17,6 +17,15 @@ function App() {
         >
           Learn React Again
         </a>
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Second Button
+        </a>
       </header>
     </div>
   );
