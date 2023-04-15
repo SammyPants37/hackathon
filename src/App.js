@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React, { useEffect, useState } from 'react';
 import {Configuration, OpenAIApi} from "openai";
+import ExampleComponent from "./components/example";
 //import "dotenv";
 //require('dotenv').config()
 
@@ -18,6 +19,7 @@ async function runPrompt(food){
   console.log(completion);
   return (completion.data.choices[0].text);
 }
+
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -110,6 +112,7 @@ function App() {
         >
           Second Button
         </a>
+        <ExampleComponent />
       </header>
     </div>
   ); */
